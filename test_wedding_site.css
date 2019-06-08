@@ -1,0 +1,139 @@
+body {
+    background-color: #ddd;
+}
+img {
+    width: 100%;
+    height: auto;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 0;
+}
+img:after{
+    content:"";
+  display:block;
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  background:rgba(0,0,0,0.7);
+}
+
+.img-background{
+    z-index: 0;
+}
+
+.carousel-item.active,
+.carousel-item-next,
+.carousel-item-prev{
+    display:block;
+    z-index: 500;
+    background-color: rgba(0,0,0,0.2);
+    width: 100%;
+    height: auto;
+}
+.carousel-control-prev{
+    z-index: 500;
+}
+.carousel-control-next{
+    z-index: 500;
+}
+div#carouselContent.carousel.slide{
+    margin-top: -74%;
+}
+.carousel-inner {
+    position: relative;
+    width: 116%;
+    overflow: hidden;
+    margin-left: -8%;
+}
+
+.carousel-inner {
+    position: relative;
+    width: 116%;
+    overflow: hidden;
+    margin-left: -8%;
+}
+.text{
+    padding-top: 25%;
+    padding-bottom: 0%;
+    z-index: 501;
+}
+
+.slideone{
+    color: white;
+}
+.slideone.first{
+    font-family: 'Lora', serif;
+    font-size: 6.5em;
+    margin-top: -22%;
+    margin-bottom: 11%;
+}
+.slideone.second.third.fourth{
+    font-family: 'Karla', sans-serif;
+    font-size: 6.5em;
+}
+
+.slideone.second{
+    font-size: 4em;
+    margin-top: 29%;
+}
+.slideone.third{
+    font-size: 1.5em;
+}
+.slideone.fourth{
+    font-size: 1.5em;
+    padding-bottom:.35%;
+}
+
+
+
+.slidetwo{
+    color: white;
+    font-family: 'Karla', sans-serif;
+    margin-top: 25%;
+}
+.slidetwo.first{
+    font-size: 5em;
+    margin-bottom: 18%;
+    margin-top: -19.5%;
+}
+.slidetwo.second{
+    font-size: 2.75em;
+    padding-top: 8.5%;
+}
+
+.slidetwo.third{
+    font-size: 2.75em;
+    margin-top: 0;
+    padding-bottom: 0.5%;
+}
+
+a:hover{
+    text-decoration: none;
+    
+}
+
+.slidethree{
+    color: white;
+    font-family: 'Karla', sans-serif;
+}
+
+.slidethree.first{
+    margin-top: -19%;
+    font-size: 5em;
+    margin-bottom: 31.5%;
+    
+}
+
+.slidethree.second.third{
+    font-size: 3em;
+}
+.slidethree.second{
+    font-size: 2em;
+    padding-left: 9%;
+    padding-right: 9%;
+}
+}
+#buttonone{
+    margin-bottom: -7.25%;
+}
